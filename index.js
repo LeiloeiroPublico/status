@@ -110,9 +110,9 @@ function getStatusText(color) {
   return color == "nodata"
     ? "Sem Dados Disponíveis"
     : color == "success"
-    ? "Totalmente Operacional"
+    ? "Operacional"
     : color == "failure"
-    ? "Grande Interrupção"
+    ? "Sofreu Interrupção"
     : color == "partial"
     ? "Interrupção Parcial"
     : "Unknown";
