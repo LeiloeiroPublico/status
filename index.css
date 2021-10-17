@@ -340,6 +340,7 @@ footer a {
   }
 
   .statusSquare {
+    border-radius: 15%;
     min-width: 4px;
     width: 100%;
   }
