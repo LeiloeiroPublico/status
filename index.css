@@ -163,14 +163,14 @@ footer a {
 }
 
 .statusSquare {
-  border-radius: 3px;
-  height: 15px;
+  border-radius: 15%;
+  height: 6px;
   min-width: 5px;
   width: 100%;
 }
 
 .statusSquare + .statusSquare {
-  margin-left: 6px;
+  margin-left: 2px;
 }
 
 .sectionUrl {
