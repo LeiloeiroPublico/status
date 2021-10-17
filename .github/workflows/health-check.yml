@@ -1,6 +1,6 @@
-name: Scheduled Health Check
+name: Verificação Agendada
 
-# Controls when the action will run.
+# Controla quando a ação deve rodar.
 on:
   schedule:
     - cron: "30 * * * *"
