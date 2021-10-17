@@ -162,11 +162,18 @@ footer a {
   justify-content: space-between;
 }
 
-.statusSquare {
+/* .statusSquare {
   border-radius: 15%;
   height: 10px;
   min-width: 5px;
   width: 100%;
+} */
+
+.statusSquare {
+    border-radius: 50%;
+    height: 25px;
+    min-width: 15px;
+    width: 3%;
 }
 
 .statusSquare + .statusSquare {
