@@ -8,7 +8,7 @@ on:
 jobs:
   health_check_job:
     runs-on: ubuntu-latest
-    name: Check all sites
+    name: Verifica todos os domínios
     steps:
       - uses: actions/checkout@v2
       - name: Run Shell Script
