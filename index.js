@@ -108,25 +108,25 @@ function templatizeString(text, parameters) {
 
 function getStatusText(color) {
   return color == "nodata"
-    ? "No Data Available"
+    ? "Sem Dados Disponíveis"
     : color == "success"
-    ? "Fully Operational"
+    ? "Totalmente Operacional"
     : color == "failure"
-    ? "Major Outage"
+    ? "Grande Interrupção"
     : color == "partial"
-    ? "Partial Outage"
+    ? "Interrupção Parcial"
     : "Unknown";
 }
 
 function getStatusDescriptiveText(color) {
   return color == "nodata"
-    ? "No Data Available: Health check was not performed."
+    ? "Não há dados disponíveis: a verificação não foi realizada."
     : color == "success"
-    ? "No downtime recorded today."
+    ? "Nenhum tempo de inatividade registrado hoje."
     : color == "failure"
-    ? "Major outages recorded today."
+    ? "Registradas interrupções no dia de hoje."
     : color == "partial"
-    ? "Partial outages recorded today."
+    ? "Registradas interrupções parciais no dia de hoje."
     : "Unknown";
 }
 
