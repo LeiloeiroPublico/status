@@ -105,6 +105,14 @@ footer a {
   font-weight: bold;
 }
 
+.logoContainer {
+  padding: 30px;
+  background-color: #f5f6f8;
+  max-width: 900px;
+  width: 100%;
+  margin: 55px auto;
+}
+
 .pageContainer {
   padding: 30px;
   background-color: #fff;
