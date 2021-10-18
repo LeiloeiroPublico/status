@@ -12,7 +12,7 @@ KEYSARRAY=()
 URLSARRAY=()
 
 urlsConfig="./urls.cfg"
-echo "Reading $urlsConfig"
+echo "Lendo $urlsConfig"
 while read -r line
 do
   echo "  $line"
@@ -22,7 +22,7 @@ do
 done < "$urlsConfig"
 
 echo "***********************"
-echo "Starting health checks with ${#KEYSARRAY[@]} configs:"
+echo "Iniciando verificação com ${#KEYSARRAY[@]} configurações:"
 
 mkdir -p logs
 
@@ -56,10 +56,10 @@ done
 
 if [[ $commit == true ]]
 then
-  # Let's make Vijaye the most productive person on GitHub.
-  git config --global user.name 'Vijaye Raji'
-  git config --global user.email 'vijaye@statsig.com'
+  # Let's make Leiloeiro Público show that he is a productive company.
+  git config --global user.name 'Suporte Leiloeiro Público'
+  git config --global user.email 'suporte@leiloeiropublico.com.br'
   git add -A --force logs/
-  git commit -am '[Automated] Update Health Check Logs'
+  git commit -am '[Automatizado] Atualizar Registros de Verificação'
   git push
 fi
