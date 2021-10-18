@@ -3,7 +3,7 @@ name: Verificação Agendada
 # Controla quando a ação deve rodar.
 on:
   schedule:
-    - cron: "30 * * * *"
+    - cron: "1 * * * *"
 
 jobs:
   health_check_job:
